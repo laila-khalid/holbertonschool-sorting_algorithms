@@ -2,6 +2,8 @@
 
 /**
  * swap_nodes - swaps two adjacent nodes
+ * @list: pointer to the head of the list
+ * @node: first node to swap
  */
 void swap_nodes(listint_t **list, listint_t *node)
 {
@@ -24,6 +26,7 @@ void swap_nodes(listint_t **list, listint_t *node)
 
 /**
  * cocktail_sort_list - sorts a doubly linked list
+ * @list: pointer to the head of the list
  */
 void cocktail_sort_list(listint_t **list)
 {
